@@ -1,0 +1,41 @@
+{
+  "name": "simple-cash",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "workspaces": ["apps/*", "packages/*", "backend"],
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "next-pwa": "5.6.0",
+    "@supabase/supabase-js": "2.42.4",
+    "prisma": "5.17.0",
+    "express": "4.19.2",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "jsonwebtoken": "9.0.2",
+    "twilio": "5.0.0",
+    "chart.js": "4.4.4",
+    "react-chartjs-2": "5.3.2",
+    "i18next": "23.10.0",
+    "react-i18next": "13.5.0",
+    "i18next-browser-languagedetector": "7.2.0",
+    "i18next-http-backend": "2.5.0",
+    "idb": "8.0.0",
+    "jspdf": "2.5.1",
+    "json2csv": "6.0.0"
+  }
+}
