@@ -1,5 +1,6 @@
 {
   "name": "simple-cash",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "version": "0.1.0",
   "license": "MIT",
